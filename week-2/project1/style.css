@@ -1,0 +1,23 @@
+#headline {
+    color: darkgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#headline2{
+    text-align: center;
+}
+#pic1{
+    float: left;
+}
+img{
+    padding: 20px;
+}
+.paraHeight{
+    line-height: 25px;
+}
+.upperCase{
+    text-transform: uppercase;
+}
+.hoverLink:hover{
+    text-decoration: underline;
+}
