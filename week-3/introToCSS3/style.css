@@ -5,6 +5,7 @@
 }
 #headline2{
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #pic1{
     float: left;
@@ -12,7 +13,7 @@
 img{
     padding: 20px;
 }
-.paraHeight{
+p{
     line-height: 25px;
 }
 .upperCase{
