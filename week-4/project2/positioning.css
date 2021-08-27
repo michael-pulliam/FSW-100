@@ -43,6 +43,10 @@
   }
   h1{
       margin-left: 75px;
+      font-family: roboto slab;
+  }
+  h2{
+    font-family: cabin;
   }
 
  
