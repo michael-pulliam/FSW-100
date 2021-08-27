@@ -48,6 +48,10 @@
   h2{
     font-family: cabin;
   }
+  #cart{
+    float: right;
+    margin-right: 20px;
+  }
 
  
 
