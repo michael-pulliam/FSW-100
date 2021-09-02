@@ -1,3 +1,4 @@
+@media only screen and (min-width: 400px) {
 .gridcontainer{ 
     display: grid;
     column-gap: 10px;
@@ -11,8 +12,8 @@ padding: 50px;
 .boxC {background-color: green;grid-column: 3/5;}
 .boxD {background-color: purple;grid-column: 3/4;}
 .boxE {background-color: purple;grid-column: 4/5;}
-
-@media only screen and (min-width: 400px) {
+}
+@media only screen and (min-width: 768px) {
     .gridcontainer div{
         padding: 25px;
     }

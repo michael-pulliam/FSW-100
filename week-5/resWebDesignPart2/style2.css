@@ -1,4 +1,5 @@
 .gridcontainer{ 
+    margin: 10px;
     display: grid;
     column-gap: 10px;
     row-gap: 10px;
