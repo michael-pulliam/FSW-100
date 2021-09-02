@@ -1,0 +1,31 @@
+.gridcontainer{ 
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.gridcontainer div{
+padding: 50px; 
+}
+.boxA {background-color: tomato;}
+.boxB {background-color: royalblue;}
+.boxC {background-color: green;}
+.boxD {background-color: purple;}
+.boxE {background-color: yellowgreen;}
+
+@media only screen and (min-width: 400px) {
+    .gridcontainer div{
+        padding: 25px;
+    }
+    .boxA {background-color: tomato;grid-column: 1/5;}
+    .boxB {background-color: royalblue;grid-column: 1/2;}
+    .boxC {background-color: green;grid-column: 2/5;}
+    .boxD {background-color: purple;grid-column: 1/5;}
+    .boxE {background-color: yellowgreen;grid-column: 1/5;}
+}
+@media only screen and (min-width: 768px){
+    .boxA {background-color: tomato;grid-column: 1/5;}
+    .boxB {background-color: royalblue;grid-column: 1/2;}
+    .boxC {background-color: green;grid-column: 2/4;}
+    .boxD {background-color: purple;grid-column: 4/5;}
+    .boxE {background-color: yellowgreen;grid-column: 1/5;}
+}

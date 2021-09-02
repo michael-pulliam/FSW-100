@@ -1,0 +1,24 @@
+.gridcontainer{ 
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.gridcontainer div{
+padding: 50px; 
+}
+.boxA {background-color: tomato; grid-column: 1/5;}
+.boxB {background-color: royalblue;grid-column: 1/3;grid-row: 2/4;}
+.boxC {background-color: green;grid-column: 3/5;}
+.boxD {background-color: purple;grid-column: 3/4;}
+.boxE {background-color: purple;grid-column: 4/5;}
+
+@media only screen and (min-width: 400px) {
+    .gridcontainer div{
+        padding: 25px;
+    }
+    .boxA {background-color: tomato;grid-column: 1/3;}
+    .boxB {background-color: royalblue;grid-column: 3/5; grid-row: 1/2;}
+    .boxC {background-color: green;grid-column: 1/2;}
+    .boxD {background-color: purple;grid-column: 2/5;}
+    .boxE {background-color: yellow;grid-column: 1/5;}
+}

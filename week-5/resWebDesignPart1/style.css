@@ -1,0 +1,61 @@
+/* Common Breakpoints
+Mobile: 360 x 720
+Tablet: 768 x 1024
+Laptop: 1366 x 768
+High-res laptop or desktop: 1920 x 1080 */
+.boxOfBoxes{
+    background-color: antiquewhite;
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.boxOfBoxes > div{
+    background-color: blueviolet;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border: 1px solid black;
+}
+#box1{
+    background-color: #F5C6D6;
+    min-height: 100px;
+}
+#box2{
+    background-color: #EE2E84;
+    min-height: 100px;
+}
+#box3{
+    background-color: #EE2E84;
+    min-height: 100px;
+} 
+#box4{
+    background-color: #EE2E84;
+    min-height: 100px;
+}
+ #box5{
+    background-color: #EE2E84;
+    min-height: 100px;
+}
+#box6{
+    background-color: #85CFD8;
+    min-height: 100px;
+}
+#box7{
+    background-color: #85CFD8;
+    min-height: 100px;
+}
+#box8{
+    background-color: #8DC63F;
+    min-height: 100px;
+}
+#box9{
+    background-color: #E76E34;
+    min-height: 100px;
+}
+
+@media only screen and (max-width:400px){
+
+}
