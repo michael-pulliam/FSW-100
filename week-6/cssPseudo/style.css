@@ -1,0 +1,34 @@
+.gridcontainer{
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    width: 50px;
+}
+.gridcontainer div{
+    border: 2px solid black;
+    padding: 50px;
+}
+.player{
+    position:sticky;
+    margin-left: 800px;
+    margin-top: 20px;
+}
+.boxA:hover {background-color: tomato;
+height: 100px; margin-left: 100px;}
+
+.boxB:hover {background-color: royalblue; 
+border: 10px double greenyellow; margin: 50px;}
+
+.boxC:hover {background-color: green;
+border-radius: 50%; border-style: dashed; margin-left: 300px;
+position: fixed;}
+
+.boxD:hover {background-color: purple;
+border-color: gold; border-width: 20px;
+ border-style:double dotted;}
+
+.boxE:hover {background-color: purple;
+     border-bottom-left-radius: 50%;
+     border-bottom-right-radius: 50%;
+     border-color: coral; border: 20px;
+    border-style: groove;opacity: 25%;}
