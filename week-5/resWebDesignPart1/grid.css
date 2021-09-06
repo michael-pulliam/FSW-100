@@ -1,6 +1,7 @@
 .gridcontainer{
     padding: 10px; 
     display: grid;
+    grid-template-columns: 1fr;
     column-gap: 10px;
     row-gap: 10px;
 }
@@ -17,13 +18,12 @@ padding: 25px;
 .boxH {background-color: #8DC63F;}
 .boxI {background-color: #E76E34;}
 
-@media only screen and (min-width: 400px) {
-.boxA {background-color: #F5C6D6;grid-column: 1/5;}
-.boxB {background-color: #EE2E84;}
-.boxC {background-color: #EE2E84;}
-.boxD {background-color: #EE2E84;}
-.boxE {background-color: #EE2E84;}
-.boxF {background-color: #85CFD8;grid-column: 1/3;}
-.boxG {background-color: #85CFD8;grid-column: 3/5;}
-.boxH {background-color: #8DC63F;grid-column: 1/4;}
-.boxI {background-color: #E76E34;}}
+@media only screen and (min-width: 768px) {
+    .gridcontainer{
+        grid-template-columns: repeat(4, 1fr);
+    }
+.boxA {grid-column: 1/5;}
+.boxF {grid-column: 1/3;}
+.boxG {grid-column: 3/5;}
+.boxH {grid-column: 1/4;}
+}
