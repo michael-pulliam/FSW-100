@@ -30,6 +30,8 @@ table{
   margin-top: 75px;
   width: 100%;
   padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
 }
 td{
   border: 2px solid black;
