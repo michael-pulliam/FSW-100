@@ -1,0 +1,189 @@
+/*HOME PAGE*/
+body{
+    background: url("image/candleHomeBackgroundImg.jpeg")
+    no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: fit-content;
+    margin-top: 100px;
+}
+.navbar {
+    grid-row: 1/2;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; 
+    top: 5px; 
+    width: 100%;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 50%;
+    font-family: carattere;
+    font-size:x-large;
+  }
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  #cart{
+      float: right;
+      margin-right: 10px;
+  }
+  .candleImg{
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+  }
+header{
+    font-size: 30px;
+    font-family: Carattere;
+    text-align: center;
+}
+header h1{
+    font-family: Carattere;
+    color: #333;
+}
+
+  
+
+#familyCrest{
+
+    display: block;
+    width: 150px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    
+    
+}
+.start-shopping{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+#item7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#item7 > h1{
+    font-family: carattere;
+    font-size: xx-large;
+ 
+}
+li{
+    font-family: carattere;
+    font-size: xx-large;
+ 
+}
+table{
+    border: none;
+    width: 25%;
+    font-family: carattere;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+footer{
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.product-btn{
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    padding: 40px;
+    font-weight: bold;
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+    color: #777;
+   
+}
+.product-btn:hover {
+    background-color: #2D9CDB;
+  }
+.product-btn > a{
+text-decoration: none;
+color: white;
+font-family: carattere;
+
+}
+span{
+    text-align: center;
+}
+@media only screen and (min-width: 768px){
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 6;
+    }
+    header{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    #familyCrest{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .start-shopping{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        margin-top: 0;
+        
+    }
+    .product-btn{
+        margin-top: 0;
+    }
+    #item7{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    #item8{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        margin-top: 0;
+    }
+    footer{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+}

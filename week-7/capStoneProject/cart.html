@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cart.css">
+    <link href="https://fonts.googleapis.com/css2?family=Carattere&display=swap" rel="stylesheet">
+    <title>Pulliam Candle Co.</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="home.html">Home</a>
+        <a href="product.html">Candles</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="about.html">About Us</a>
+        <a href="cart.html" id="cart">Shopping Cart</a>
+    </nav>
+    <form action="" class="form">
+        <h1 class="header">Shopping Cart</h1>
+    <div class="cart-row">
+        <span class="cart-item cart-header cart-column">Item</span>
+        <span class="cart-price cart-header cart-column">Price</span>
+        <span class="cart-quantity cart-header cart-column">Quantity</span>
+    </div>
+    <div class="cart-items">
+        <div class="cart-row">
+            <div class="cart-item cart-column">
+                <img class="cart-item-image" src="https://images.freeimages.com/images/large-previews/55d/candle-1546820.jpg" alt="Black Cup of Coffee">
+                <span class="cart-item-title">Pumkin Spice</span>
+            </div>
+            <span class="cart-price cart-column">$4.99</span>
+            <div class="cart-quantity cart-column">
+                <input class="cart-quantity-input" type="number" value="0">
+            </div>
+        </div>
+        <div class="cart-items">
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="cart-item-image" src="https://images.pexels.com/photos/3693392/pexels-photo-3693392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Cup of tea">
+                    <span class="cart-item-title">Apple Cinnamon</span>
+                </div>
+                <span class="cart-price cart-column">$4.99</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type="number" value="0">
+                </div>
+            </div>
+            <div class="cart-items">
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="https://images.pexels.com/photos/278664/pexels-photo-278664.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="Everything Bagel">
+                        <span class="cart-item-title">Vanilla</span>
+                    </div>
+                    <span class="cart-price cart-column">$4.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="0">
+                    </div>
+                </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0.00</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">Purchase</button>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
